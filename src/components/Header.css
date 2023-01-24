@@ -3,6 +3,22 @@
   text-decoration: none;
 }
 
+.home.active {
+  color: black;
+}
+
+.blurp.active {
+  color: rgb(49, 3, 176);
+}
+
+.pank.active {
+  color: rgb(255, 109, 226);
+}
+
+.grey.active {
+  color: rgb(155, 136, 136);
+}
+
 header {
   display: flex;
   justify-content: space-around;
