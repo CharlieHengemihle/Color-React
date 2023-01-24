@@ -1,0 +1,12 @@
+.active {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: aquamarine;
+  position: fixed;
+  width: 100vw;
+}

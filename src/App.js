@@ -1,15 +1,14 @@
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header.js';
+import RGB from './components/RGB.js';
 
 function App() {
   return (
     <main>
       <Header />
       <Switch>
-        <Route exact path="/blurple" />
-        <Route exact path="/pank" />
-        <Route exact path="/greige" />
+        <Route exact path="/RGB/:red/:green/:blue" component={RGB} />
       </Switch>
     </main>
   );
