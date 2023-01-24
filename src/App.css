@@ -24,6 +24,20 @@
   color: white;
 }
 
+body {
+  width: 100vw;
+  height: 100vh;
+  color: red;
+  font-weight: 500;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 0px;
+}
 .App-link {
   color: #61dafb;
 }
