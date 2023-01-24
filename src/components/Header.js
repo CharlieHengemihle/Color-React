@@ -3,23 +3,16 @@ import './Header.css';
 export default function Header() {
   return (
     <header>
-      <NavLink to="/">Home</NavLink>
-      <NavLink
-        to="/RGB/49/3/176"
-        // className={(active) => 'nav-link' + (!active ? ' unselected' : '')}
-      >
+      <NavLink exact={true} to="/">
+        Home
+      </NavLink>
+      <NavLink exact={true} to="/RGB/49/3/176">
         Blurple!
       </NavLink>
-      <NavLink
-        to="/RGB/255/109/226"
-        // className={(active) => 'nav-link' + (!active ? ' unselected' : '')}
-      >
+      <NavLink exact={true} to="/RGB/255/109/226">
         Pank.
       </NavLink>
-      <NavLink
-        to="/RGB/155/136/136"
-        // className={(active) => 'nav-link' + (!active ? ' unselected' : '')}
-      >
+      <NavLink exact={true} to="/RGB/155/136/136">
         Greige :(
       </NavLink>
     </header>
