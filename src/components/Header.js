@@ -3,6 +3,7 @@ import './Header.css';
 export default function Header() {
   return (
     <header>
+      <NavLink to="/">Home</NavLink>
       <NavLink
         to="/RGB/49/3/176"
         // className={(active) => 'nav-link' + (!active ? ' unselected' : '')}
